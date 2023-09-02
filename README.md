@@ -4,6 +4,8 @@
 
 #### todo:
 
-- [ ] sessão de produtos disponíveis
-- [ ] sessão do carrinho de compras
-- [ ] total
+- [x] instalação zustand e criação do store
+- [x] sessão de produtos disponíveis
+- [x] sessão do carrinho de compras
+- [x] total
+- [ ] não adicionar produtos repetidos no carrinho
