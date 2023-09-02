@@ -8,4 +8,4 @@
 - [x] sessão de produtos disponíveis
 - [x] sessão do carrinho de compras
 - [x] total
-- [ ] não adicionar produtos repetidos no carrinho
+- [x] não adicionar produtos repetidos no carrinho

@@ -18,7 +18,18 @@ export const useCartStore = create<ICartStore>((set) => ({
   // pode ser: {state:cart:[]} o objeto pode ser montado do jeito que o dev quiser
   cart: [],
   avaiblebleItems: initialItems,
-  addToCart: (item) => set((state) => ({ cart: [...state.cart, item] })),
+  addToCart: (item) =>
+    set((state) => {
+      const exist = state.cart.find((cartItem) => cartItem.id === item.id);
+
+      if (exist) {
+        return state;
+      }
+
+      return {
+        cart: [...state.cart, item],
+      };
+    }),
   removeFromCart: (id) =>
     set((state) => ({ cart: state.cart.filter((item) => item.id !== id) })),
 }));

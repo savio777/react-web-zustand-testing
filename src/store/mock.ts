@@ -26,4 +26,19 @@ export const initialItems: ItemCartStore[] = [
     name: "Portable USB Power Bank",
     price: 34.95,
   },
+  {
+    id: "p6",
+    name: "Stainless Steel Water Bottle",
+    price: 19.95,
+  },
+  {
+    id: "p7",
+    name: "Classic Leather Wallet",
+    price: 29.99,
+  },
+  {
+    id: "p8",
+    name: "Portable USB Power Bank",
+    price: 34.95,
+  },
 ];
